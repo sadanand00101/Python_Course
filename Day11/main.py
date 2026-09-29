@@ -12,3 +12,12 @@ def square(a):
 
 result = square(10)
 print(result)
+
+def addition(*numbers):
+    print (sum(numbers))
+    
+addition(10,20,30,40,50,60,70,80,90)
+
+def user(**user):
+    print(user)
+

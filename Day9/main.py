@@ -5,7 +5,6 @@ obj={
     "age":20,
     "clg":"BEC"
 }
-
 print(obj["name"])
 #update
 obj["age"]=21
@@ -19,12 +18,9 @@ print(obj)
 #keys
 print(obj.keys())
 print(obj.values())
-
-
 #set
-
-abc={10,20,30,40,10,20}
-print(set)
+abc={20,30,40,10,20,40}
+print(abc)
 
 
 

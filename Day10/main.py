@@ -14,10 +14,11 @@ obj={
     "clg":"BEC"
 }
 
-for val1,val2 in obj.items():
-    print(val1,val2)
+for key,val in obj.items():
+    print(key,val)
 
-for a in range(2):
-    for b in range(2):
-        print(a,b)
+for a in range(2): # 0,1
+    for b in range(2): #0,1
+       for c in range(2):
+           print(a,b,c)
 

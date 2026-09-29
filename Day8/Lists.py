@@ -1,4 +1,4 @@
-# list => change =[]
+# list => change = []
 #tuple =>cant change  =()
 
 list=[10,20,30,"hola",True]

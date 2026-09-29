@@ -1,14 +1,12 @@
-for i in range(5):
- print("Hi")
+# for i in range(5):
+#  print("Hi")
 
-for i in range(4,9):
-    print(i)
+# for i in range(4,9):
+#     print(i)
     
-for i in range(4,11,2):#(start,stop,increment)
+for i in range(4,21,2):#(start,stop,increment)
+    if i ==10:
+        continue
     print(i)
 
-count = 1  #variable
-while count <5:
-    print(count)
-    count+=1
-    
+
